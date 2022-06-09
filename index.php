@@ -68,8 +68,8 @@ $faqs = [
 <body>
     <ul>
         <?php foreach($faqs as $single_faq) {
-                echo '<li>' . '<h2>' . $single_faq['question'] . '</h2>'. '</li>'; 
-                echo '<li>' . $single_faq['answer'] . '</li><br>';
+            echo '<li>' . '<h2>' . $single_faq['question'] . '</h2>'. '</li>'; 
+            echo '<li>' . $single_faq['answer'] . '</li><br>';
         } 
         ?>
     </ul>
